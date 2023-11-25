@@ -1,0 +1,53 @@
+@import './Fonts.css';
+
+body {
+    background-color: rgb(215, 248, 250);
+}
+
+h2 {
+    color: brown;
+    /* font-family: "Roboto"; */
+    font-family: "SmoochSans";
+    padding-left: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    padding-left: 30px;
+}
+
+.General {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;    
+}
+
+.bigs {
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.smalls {
+    line-height: 35px;
+}
+
+a {margin-left: 30px;}
+
+button {
+    background-color: rgb(0, 170, 255);
+    border-radius: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+}
