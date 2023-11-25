@@ -3,3 +3,8 @@
     src: url(../fonts/Roboto-Regular.woff) format('woff'),
     url(../fonts/Roboto-Regular.woff2) format('woff2');
 }
+
+@font-face {
+    font-family: "SmoochSans";
+    src: url(../fonts/SmoochSans-VariableFont_wght.ttf);
+}
