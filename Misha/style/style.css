@@ -1,0 +1,95 @@
+
+.test1{
+    border: 2px solid grey;
+    border-radius: 2px;
+    width: 250px;
+    height: 560px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+.testimg1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.testimg{
+    width: 240px;
+    border: 2px solid greenyellow;
+    filter: drop-shadow(1px 1px 5px greenyellow);
+    border-radius: 30%;
+}
+
+.testh{
+    text-align: center;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.testp{
+    padding: 5px;
+    text-indent: 5px;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.testp1{
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.test2{
+    margin-left: 10px;
+    /* border: 2px solid black; */
+    height: 560px;
+    width: 500px;
+    float: left;
+}
+
+.testh1{
+    text-align: center;
+    margin-top: -5px;
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.testh2{
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.testp2{
+    padding: 5px;
+    text-indent: 10px;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.testb{
+    margin-top: 247px;
+}
+
+.testb1{
+    border: 2px solid grey;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 30px;
+    transition: all 1s linear;
+}
+
+.testb2{
+    color: purple;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.testb1:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
