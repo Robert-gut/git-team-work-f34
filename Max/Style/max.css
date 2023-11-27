@@ -1,0 +1,125 @@
+body{
+   background-color: rgb(161, 16, 16);
+}
+
+.center{
+   box-shadow: 5px 6px 20px -7px rgba(0,0,0,0.76) inset;
+   border: black 1px solid;
+   margin: 10px auto;
+}
+
+.bg-center{
+   padding: 38px;
+}
+
+.text-area{
+   color: #523ae0;
+}
+
+.text-area h1{
+   font-family: Rammetto;
+}
+
+.text-area h2{
+   font-size: 30px;
+   font-family: LatoB;
+}
+
+.text-area h3{
+   font-size: 25px;
+   font-family: LatoB;
+}
+
+.text-area hr{
+   margin: 20px 0px;
+   border: 2px #523ae0 solid;
+}
+
+.text-area ol{
+   margin: 50px 0px;
+   list-style-type:square;
+}
+.text-area li{
+   margin: 20px 0px;
+   font-size: 15px;
+   font-family: LatoB;
+}
+
+.Portfolio-area{
+   background-color: #705ddb;
+   float: left;
+   margin-right: 25px;
+   margin-left: -10px;
+   width: 330px;
+   height: 750px;
+}
+
+.portfolio{
+   background-color: #efefef;
+   width: 330px;
+   height: 315px;
+}
+
+.Portfolio-area h2{
+   color: azure;
+   padding: 20px;
+   font-family: LatoB;
+   text-align: center;
+}
+
+.Portfolio-area div{
+   padding: 20px;
+   font-size: 14px;
+   font-family: LatoB;
+   color: azure;
+   text-align: left;
+}
+
+h1{
+   font-size: 50px;
+}
+
+
+.wrapper{
+   margin-left: 500px;
+ }
+ 
+ a{
+   display: block;
+   width: 200px;
+   height: 40px;
+   line-height: 40px;
+   font-size: 18px;
+   font-family: sans-serif;
+   text-decoration: none;
+   color: #333;
+   border: 2px solid #333;
+   letter-spacing: 2px;
+   text-align: center;
+   position: relative;
+   transition: all .35s;
+ }
+ 
+ a span{
+   position: relative;
+   z-index: 2;
+ }
+ 
+ a:after{
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 100%;
+   background: #705ddb;
+   transition: all .35s;
+ }
+ 
+ a:hover{
+   color: #fff;
+ }
+ 
+ a:hover:after{
+   width: 100%;
+ }
