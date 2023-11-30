@@ -1,0 +1,214 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9E6F6;
+}
+
+.container-fluig {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    top: 50px;
+    background-color: #CAA8A1;
+    z-index: -1;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    position: relative;
+    left: 13px;
+    top: 53px;
+}
+
+.rectangle {
+    top: 0;
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    background-color: #6C999A;
+    z-index: 1;
+}
+
+.h3-prescription {
+    margin-top: 140px;
+    margin-left: 27px;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9E6F6;
+}
+
+.p-prescription {
+    margin: 0 27px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9E6F6;
+}
+
+.p-icon {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9E6F6;
+}
+
+.icon {
+    margin: 0 10px;
+    margin-top: 91px;
+}
+
+.icon-item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img-icon {
+    margin: 0;
+    padding: 0;
+    margin-top: -105px;
+}
+
+.p-icon {
+    margin-left: 40px;
+}
+
+.scills {
+    z-index: 3;
+}
+
+.h1-name {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9E6F6;
+}
+
+.h4-name {
+    margin-top: -15px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E5D4E3;
+}
+
+.name {
+    position: absolute;
+    margin: 0;
+    margin-left: 350px;
+    top: 120px;
+}
+
+.slills-one {
+    margin-left: 350px;
+    margin-top: 110px;
+}
+
+
+.h2-slills-one {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #494649;
+}
+
+.p-slills-one {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #494649;
+}
+
+hr {
+    margin-top: 30px;
+    width: 560px;
+    height: 1px;
+    margin-left: 0px;
+    background-color: #CAA8A1;
+}
+
+.h3-prog {
+    margin-top: 30px;
+    margin-left: 350px;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #494649;
+}
+
+.prog {
+    margin-left: 350px;
+    display: flex;
+    justify-content: flex-start;    
+}
+
+.prog-item {
+    margin-right: 70px;
+    margin-top: -20px;
+}
+
+.c-prog {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #494649;
+}
+
+button {
+    position: relative;
+    margin-left: 1010px;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: #CAA8A1;
+    border: 1px solid #494649;
+}
+
+.a-button {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #494649;
+    text-decoration: none;
+}
