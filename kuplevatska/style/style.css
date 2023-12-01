@@ -191,9 +191,9 @@ hr {
 }
 
 button {
-    position: relative;
-    margin-left: 1010px;
+    margin-left:calc(50% + 50px);
     margin-top: 20px;
+    left: center;
     width: 150px;
     height: 30px;
     border-radius: 5px;
