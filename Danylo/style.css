@@ -16,33 +16,54 @@
             background-color: #505050;
         }
 
-                .photo {
-                    width: 214px;
-                    margin: 28px;
-                    filter: grayscale(50%);
-                    border-radius: 50%;
-                    border: double 10px #ffffff;
+                button {
+                    background-color: transparent;
+                    border: none;
+                    cursor: pointer;
+                    position: relative;
+                    float: left;
+                    padding: 0px;
+                    margin: 15px 15px 0px;
+                    height: 15px;
+                    color: #ffffff;
+                    font-weight: bold;
                 }
 
-                        h4 {
-                            color: #ffffff;
-                            margin: 0px 0px 10px;
+                button:hover {
+                    color: #8c8c8c;
+                }
+
+                        .photo {
+                            width: 214px;
+                            margin: 0px 28px 28px;
+                            filter: grayscale(50%);
+                            border-radius: 50%;
+                            border: double 10px #ffffff;
                         }
 
-                                .icon {
-                                    width: 20px;
-                                    margin: 4px 10px;
-                                    vertical-align: middle;
+                                h4 {
+                                    color: #ffffff;
+                                    margin: 0px 0px 10px;
                                 }
 
-                                .contact {
-                                    text-align: left;
-                                    width: 220px;
-                                    margin: 0px auto;
-                                    color: #ffffff;
-                                    font-size: 15px;
-                                    font-weight: 100;
-                                }
+                                        .icon {
+                                            width: 20px;
+                                            margin: 4px 10px;
+                                            vertical-align: middle;
+                                        }
+
+                                        .contact {
+                                            text-align: left;
+                                            width: 220px;
+                                            margin: 0px auto;
+                                            color: #ffffff;
+                                            font-size: 15px;
+                                            font-weight: 100;
+                                        }
+
+                                        a {
+                                            text-decoration: none;
+                                        }
 
         .column2 {
             width: 450px;
