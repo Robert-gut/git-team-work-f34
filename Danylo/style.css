@@ -1,0 +1,83 @@
+.container {
+    width: 810px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 40px;
+    border: 1px solid #8c8c8c;
+}
+        .column1 {
+            float: left;
+            margin: 20px;
+            width: 290px;
+            height: 460px;
+            border-radius: 20px;
+            background-color: #505050;
+        }
+
+                .photo {
+                    width: 214px;
+                    margin: 28px;
+                    filter: grayscale(50%);
+                    border-radius: 50%;
+                    border: double 10px #ffffff;
+                }
+
+                        h4 {
+                            color: #ffffff;
+                            margin: 0px 0px 10px;
+                        }
+
+                                .icon {
+                                    width: 20px;
+                                    margin: 4px 10px;
+                                    vertical-align: middle;
+                                }
+
+                                .contact {
+                                    text-align: left;
+                                    width: 220px;
+                                    margin: 0px auto;
+                                    color: #ffffff;
+                                    font-size: 15px;
+                                    font-weight: 100;
+                                }
+
+        .column2 {
+            width: 450px;
+            height: 460px;
+            margin: 20px 5px;
+            float: left;
+        }
+
+                h1 {
+                    font-size: 55px;
+                    margin: 0px;
+                    color: #505050;
+                }
+
+                h2 {
+                    margin: 0px 8px 10px;
+                    text-align: left;
+                    color: #ff0000;
+                }
+
+                        hr {
+                            width: 430px;
+                            margin: 0 8px;
+                        }
+
+                                h3 {
+                                    color: #505050;
+                                    margin: 35px 8px 15px;
+                                    text-align: left;
+                                }
+
+                                p {
+                                    text-align: left;
+                                    width: 440px;
+                                    margin: 10px 8px;
+                                    font-size: 12px;
+                                    font-weight: 100;
+                                }
